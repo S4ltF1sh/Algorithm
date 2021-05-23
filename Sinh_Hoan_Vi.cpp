@@ -52,7 +52,7 @@ void Sinh(vector<int> &Arr, int n)
         Check = 1;
     else
     {
-      //Bước 3.2: Đổi chỗ phần tử được đnahs dấu ở bước 2 và phần tử vừa tìm được ở bước 3.1:
+      //Bước 3.2: Đổi chỗ phần tử được đánh dấu ở bước 2 và phần tử vừa tìm được ở bước 3.1:
         swap(Arr[i], Arr[FindMin(Arr, n, i)]);
       
       //Bước 4:  Từ vị trí phần tử tìm được ở bước 2,sắp xếp tăng dần từ vị trí đó cho đến cuối dãy:
