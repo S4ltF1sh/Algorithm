@@ -76,7 +76,7 @@ int main()
     cin >> n;
     vector<int> Arr(n + 1);
   
-  //Bước 1: Khởi tạo cấu hình đầu tiêb:
+  //Bước 1: Khởi tạo cấu hình đầu tiên:
     Init(Arr, n);
   
   //Bắt đầu sinh và in ra hoán vị:
